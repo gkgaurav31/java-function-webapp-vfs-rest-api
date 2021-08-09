@@ -45,7 +45,8 @@ public class Function {
 
         try {
 
-            URL url = new URL("https://gaukjavalinux.scm.azurewebsites.net/api/vfs/testfile"); //testfile in present under /home
+            //change the webapp name and path of file (relative to /home)
+            URL url = new URL("https://<webappname>.scm.azurewebsites.net/api/vfs/testfile"); //testfile in present under /home
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setRequestMethod("DELETE");
             conn.setRequestProperty("Accept", "application/json");
