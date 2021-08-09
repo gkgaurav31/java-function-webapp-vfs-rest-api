@@ -8,3 +8,5 @@
 ```curl
 curl http://localhost:7071/api/HttpExample
 ```
+
+__NOTE:__ This is a sample app and will not be maintained.
