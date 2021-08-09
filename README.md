@@ -1,4 +1,8 @@
-# TO TEST
+# Sample App
+
+This is a simple Java Function to call the [VFS REST API](https://github.com/projectkudu/kudu/wiki/REST-API#vfs) on Azure WebApp.
+
+## TO TEST
 
 - Update the username and password in Function.java
 - Update the file that needs to be deleted
